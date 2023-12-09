@@ -64,42 +64,46 @@ i{
 
 /* Your styles go here */
 
+header {color: red}
+
 h1, h2, h3, h4, h5, h6{
 	font-family:'Source Sans Pro', Helvetica, Arial, sans-serif;
+	color: purple;
 
 }
+figcaption{letter-spacing: -1px}
 
 h1{
-	font-size: 2em;
-	color:#37424A;
-	text-align: center;
+	font-size: 10px;
+	font:bold;
+	color:black;
+	text-align: left;
 	line-height: 2em;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 	margin-top: 20px;
 }
 
 a {
     color: #b84ab4;
-    text-decoration: none;
+    text-decoration: bold;
 }
-
-.first-graph:first-letter {
-	float: left;
+.first-graph:{
+	float: none;
 	color: #37424A;
-	font-size: 2.5em;
+	font-size: 1.5em;
 	line-height: 1em;
-	padding-top: 4px;
-	padding-right: 10px;
+	padding-top: 8px;
+	padding-right: 7px;
 	padding-left: 3px;
 	font-family: Georgia, serif;
 }
-
 
  p{
     font-family:  Garamond, serif;
     font-size: 16px;
     line-height: 1.5em;
     color: #393939;
+    padding-top: 1.5em;
     padding-bottom: 1.5em;
 
 }
@@ -121,10 +125,13 @@ div.wrap{
 
 h1, h2{
 	font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
-	color: #363636;
+	color: #black;
 	font-size: 20px;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
+	font: bold;
 }
+
+h2{font-size: 18px}
 
 .item{
 	width: 700px;
